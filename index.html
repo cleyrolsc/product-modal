@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Modal</title>
+</head>
+
+<body>
+    <div class="bg-slate-100 min-h-screen flex flex-col px-6 py-2 justify-center items-center font-serifs">
+        <div class="bg-white rounded-lg flex flex-col p-6 md:flex-row md:items-start md:gap-8">
+            <img src="images/headphone.png" alt=""
+                class="object-contain h-56 transform hover:scale-105 duration-300 mb-10">
+            <div class="flex flex-col justify-center items-center md:items-start">
+                <p class="bg-black text-white px-2 py-1 rounded-2xl text-sm md:self-start ">Free shipping</p>
+                <h1 class="text-2xl font-semibold text-center max-w-sm md:text-left my-4">Razer Kraken Kitty Edt Gaming
+                    Headset Quartz
+                </h1>
+                <p class="line-through mb-4">$799</p>
+                <h2 class="text-5xl font-bold mb-4 ">$599</h2>
+                <p class="text-sm text-gray-400 mb-4">This offer is valid until April 3rd or as long as stock lasts!</p>
+
+                <button
+                    class="w-full duration-150 bg-blue-700 text-white rounded-lg p-4 mb-4 hover:-translate-y-0.5 hover:shadow-lg duration-200">
+                    Add to cart
+                </button>
+
+
+                <div class="flex items-center text-left w-full mb-4 group">
+                    <span class="h-3 w-3 rounded-full bg-green-400 mr-3 group-hover:animate-ping"></span>
+                    <p class="text-sm">50+
+                        pcs. in stock</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-3 w-full">
+                    <button
+                        class="p-4 flex-1 border border-2 border-gray-300 rounded-xl shadow transform hover:-translate-y-0.5 hover:shadow-lg duration-200 flex items-center justify-center gap-3"><img
+                            class="h-8" src="images/weight.png" alt="">Add
+                        to
+                        cart</button>
+                    <button
+                        class="p-4 flex-1 border border-2 border-gray-300 rounded-xl shadow transform hover:-translate-y-0.5 hover:shadow-lg duration-200 flex items-center justify-center gap-3"><img
+                            class="h-8" src="images/heart.png" alt="">Add
+                        to
+                        wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
